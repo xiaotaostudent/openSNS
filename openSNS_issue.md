@@ -25,7 +25,7 @@ class Fabu(unittest.TestCase):
         driver.find_element_by_id("inputEmail").clear()
         driver.find_element_by_id("inputEmail").send_keys("294865774@qq.com")
         driver.find_element_by_id("inputPassword").clear()
-        driver.find_element_by_id("inputPassword").send_keys("abcd1234")
+        driver.find_element_by_id("inputPassword").send_keys("********")
         driver.find_element_by_name("remember").click()
         driver.find_element_by_css_selector("button.login-btn").click()
         driver.find_element_by_xpath("//li[2]/a/span").click()
